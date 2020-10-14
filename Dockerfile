@@ -1,4 +1,4 @@
-FROM jenkinsci/blueocean
+FROM jenkinsci/blueocean:1.23.3
 LABEL maintainer="v.stone@163.com" \
       organization="Truth & Insurance Office" 
 

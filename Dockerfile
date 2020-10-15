@@ -8,4 +8,5 @@ RUN apk add docker make python3 && \
     python3 get-pip.py && \
     curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash && \
     chmod +x ./kustomize && \
-    mv ./kustomize /usr/local/bin/
+    mv ./kustomize /usr/local/bin/ && \
+    cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 
